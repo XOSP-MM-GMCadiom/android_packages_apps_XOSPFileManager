@@ -22,7 +22,7 @@
   android:paddingStart="@dimen/extra_margin"
   android:paddingEnd="@dimen/extra_margin">
 
-  <com.cyanogenmod.filemanager.ui.widgets.FixedSizeImageView
+  <com.xosp.filemanager.ui.widgets.FixedSizeImageView
     android:id="@+id/search_item_icon"
     android:layout_width="@dimen/default_row_height"
     android:layout_height="@dimen/default_row_height"
@@ -58,7 +58,7 @@
       android:layout_marginStart="@dimen/default_margin"
       android:orientation="horizontal" >
 
-      <com.cyanogenmod.filemanager.ui.widgets.RelevanceView
+      <com.xosp.filemanager.ui.widgets.RelevanceView
         android:id="@+id/search_item_relevance"
         android:layout_width="@dimen/relevance_item_width"
         android:layout_height="@dimen/relevance_item_height"

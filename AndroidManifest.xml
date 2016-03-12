@@ -15,11 +15,11 @@
  -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.cyanogenmod.filemanager"
+  package="com.xosp.filemanager"
   android:versionCode="104"
-  android:versionName="3.0.0">
+  android:versionName="1.0.0">
 
-  <original-package android:name="com.cyanogenmod.filemanager" />
+  <original-package android:name="com.xosp.filemanager" />
 
   <uses-feature android:name="android.software.leanback"
     android:required="false" />
@@ -40,7 +40,7 @@
   <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
   <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
   <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
-  <uses-permission android:name="com.cyanogenmod.filemanager.permissions.READ_THEME"/>
+  <uses-permission android:name="com.xosp.filemanager.permissions.READ_THEME"/>
 
   <application
     android:name="FileManagerApplication"
@@ -58,29 +58,29 @@
 
     <provider
       android:name=".providers.RecentSearchesContentProvider"
-      android:authorities="com.cyanogenmod.filemanager.providers.recentsearches"
+      android:authorities="com.xosp.filemanager.providers.recentsearches"
       android:exported="false" />
 
     <provider
       android:name=".providers.BookmarksContentProvider"
-      android:authorities="com.cyanogenmod.filemanager.providers.bookmarks"
+      android:authorities="com.xosp.filemanager.providers.bookmarks"
       android:exported="false" />
 
     <provider
       android:name=".providers.SecureResourceProvider"
-      android:authorities="com.cyanogenmod.filemanager.providers.resources"
+      android:authorities="com.xosp.filemanager.providers.resources"
       android:grantUriPermissions="true"
       android:exported="true" />
 
     <provider
-      android:authorities="com.cyanogenmod.filemanager.providers.index"
+      android:authorities="com.xosp.filemanager.providers.index"
       android:name=".providers.MimeTypeIndexProvider"/>
 
     <service
       android:name=".service.MimeTypeIndexService"
       android:label="@string/app_name">
       <intent-filter>
-        <action android:name="com.cyanogenmod.filemanager.ACTION_START_INDEX"/>
+        <action android:name="com.xosp.filemanager.ACTION_START_INDEX"/>
       </intent-filter>
     </service>
 
@@ -194,8 +194,8 @@
         <action android:name="android.intent.action.VIEW" />
         <action android:name="android.intent.action.EDIT" />
         <category android:name="android.intent.category.DEFAULT" />
-        <category android:name="com.cyanogenmod.filemanager.category.INTERNAL_VIEWER" />
-        <category android:name="com.cyanogenmod.filemanager.category.EDITOR" />
+        <category android:name="com.xosp.filemanager.category.INTERNAL_VIEWER" />
+        <category android:name="com.xosp.filemanager.category.EDITOR" />
 
         <data android:scheme="content" />
         <data android:scheme="file" />
@@ -212,8 +212,8 @@
         <action android:name="android.intent.action.VIEW" />
         <action android:name="android.intent.action.EDIT" />
         <category android:name="android.intent.category.DEFAULT" />
-        <category android:name="com.cyanogenmod.filemanager.category.INTERNAL_VIEWER" />
-        <category android:name="com.cyanogenmod.filemanager.category.EDITOR" />
+        <category android:name="com.xosp.filemanager.category.INTERNAL_VIEWER" />
+        <category android:name="com.xosp.filemanager.category.EDITOR" />
       </intent-filter>
     </activity>
 
@@ -232,7 +232,7 @@
       <intent-filter>
         <action android:name="android.intent.action.BOOT_COMPLETED" />
         <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-        <action android:name="com.cyanogenmod.filemanager.ACTION_START_CLEANUP"/>
+        <action android:name="com.xosp.filemanager.ACTION_START_CLEANUP"/>
       </intent-filter>
     </service>
 

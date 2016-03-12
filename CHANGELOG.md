@@ -1,19 +1,6 @@
-CyanogenMod File Manager
 ========================
-
-Version 2.0.0
--------------
-* Secure storage support
-* Print support
-
-Version 1.0.2
--------------
-* Drawer navigation support (by Florian Edelmann)
-
-Version 1.0.1
--------------
-* NFC support
-* Themes support
+XOSP File Manager
+========================
 
 Version 1.0.0
 -------------
@@ -21,6 +8,7 @@ Initial release.
 
 Features:
 
+* Xperia Fresh UI look
 * 3 navigation modes:
   · Safe mode (by default)
   · Prompt user mode

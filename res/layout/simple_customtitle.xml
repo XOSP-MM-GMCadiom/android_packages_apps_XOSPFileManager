@@ -24,7 +24,7 @@
     android:layout_height="match_parent"
     android:layout_alignParentEnd="true">
 
-    <com.cyanogenmod.filemanager.ui.widgets.ButtonItem
+    <com.xosp.filemanager.ui.widgets.ButtonItem
       android:id="@+id/ab_button0"
       style="@style/breadcrumb_actionbar_buttom"
       android:layout_width="wrap_content"
@@ -32,7 +32,7 @@
       android:onClick="onActionBarItemClick"
       android:visibility="gone" />
 
-    <com.cyanogenmod.filemanager.ui.widgets.ButtonItem
+    <com.xosp.filemanager.ui.widgets.ButtonItem
       android:id="@+id/ab_button1"
       style="@style/breadcrumb_actionbar_buttom"
       android:layout_width="wrap_content"
@@ -40,7 +40,7 @@
       android:onClick="onActionBarItemClick"
       android:visibility="gone" />
 
-    <com.cyanogenmod.filemanager.ui.widgets.ButtonItem
+    <com.xosp.filemanager.ui.widgets.ButtonItem
       android:id="@+id/ab_button2"
       style="@style/breadcrumb_actionbar_buttom"
       android:layout_width="wrap_content"

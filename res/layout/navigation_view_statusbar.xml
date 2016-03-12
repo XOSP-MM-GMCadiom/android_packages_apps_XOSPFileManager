@@ -27,7 +27,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.cyanogenmod.filemanager.ui.widgets.ButtonItem
+    <com.xosp.filemanager.ui.widgets.ButtonItem
         android:id="@+id/ab_overflow"
         android:layout_width="@dimen/default_buttom_width"
         android:layout_height="match_parent"
@@ -36,7 +36,7 @@
         android:onClick="onActionBarItemClick"
         android:src="@drawable/ic_material_light_overflow" />
 
-    <com.cyanogenmod.filemanager.ui.widgets.ButtonItem
+    <com.xosp.filemanager.ui.widgets.ButtonItem
       android:id="@+id/ab_actions"
       android:layout_width="@dimen/default_buttom_width"
       android:layout_height="match_parent"
@@ -51,7 +51,7 @@
       android:layout_toStartOf="@id/ab_overflow"
       android:layout_toEndOf="@id/ab_actions">
 
-      <com.cyanogenmod.filemanager.ui.widgets.ButtonItem
+      <com.xosp.filemanager.ui.widgets.ButtonItem
         android:id="@+id/ab_search"
         android:layout_width="@dimen/default_buttom_width"
         android:layout_height="match_parent"

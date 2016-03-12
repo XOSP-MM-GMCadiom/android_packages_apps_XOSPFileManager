@@ -57,7 +57,7 @@
     android:layout_marginStart="@dimen/extra_large_margin"
     android:layout_marginEnd="@dimen/extra_large_margin">
 
-    <com.cyanogenmod.filemanager.ui.widgets.ButtonItem
+    <com.xosp.filemanager.ui.widgets.ButtonItem
       android:id="@+id/bt_md5_clipboard"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
@@ -102,7 +102,7 @@
     android:layout_marginEnd="@dimen/extra_large_margin"
     android:layout_marginBottom="@dimen/extra_large_margin">
 
-    <com.cyanogenmod.filemanager.ui.widgets.ButtonItem
+    <com.xosp.filemanager.ui.widgets.ButtonItem
       android:id="@+id/bt_sha1_clipboard"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
