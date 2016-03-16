@@ -1,16 +1,37 @@
-CyanogenMod File Manager
-========================
+![](http://s21.postimg.org/w9nhupo1j/user4968383_pic43635_1391879040.png)
 
-A file manager for AOSP, focused on rooted devices and specially designed
-for the CyanogenMod Project.
+#XOSP File Manager
 
-This source was released under the terms of
-[Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) license.
+##Intro
 
-Visit [CyanogenMod Github](https://github.com/CyanogenMod) and [CyanogenMod
-Code Review](http://review.cyanogenmod.com/) to get the source and patches.
+XOSP File Manager is a simple file manager based on the CyanogenMod one, redesigned visually for XOSP.
+It includes all the functions of the CyanogenMod File Manager but with more improvements coming in the near future. 
 
-This application uses also third party libraries. Checkout the individual
-license of every library in libs folder.
+##Features
 
-Copyright © 2012 The CyanogenMod Project
+- Xperia Fresh UI look
+- 3 navigation modes: Safe mode,Prompt user mode and Root mode (by default)
+- History
+- Bookmarks
+- Search
+- Pick browsing
+- Breadcrumb browsing
+- Multiple selection
+- Layout view selection
+- Sort order selection
+- Show/Hide system files
+- Compression and uncompression
+- Add shortcuts to desktop
+- Mount and unmount file systems
+- Change file permissions
+- File system information
+- File information
+- Open and Open With
+- Send to
+- Internal editor
+
+##Screenshot
+
+<img alt="Screenshot"
+   width="270" height="480" 
+   src="https://raw.githubusercontent.com/XOSP-Project/android_packages_apps_XOSPFileManager/xosp-mm/screenshot/Screenshot_20160314-215951.png" />
