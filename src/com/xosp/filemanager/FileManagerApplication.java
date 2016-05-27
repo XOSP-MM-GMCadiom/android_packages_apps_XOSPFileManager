@@ -23,6 +23,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.ApplicationInfo;
 import android.os.Environment;
+import android.os.storage.StorageVolume;
 import android.util.Log;
 
 import com.xosp.filemanager.console.Console;
@@ -42,6 +43,7 @@ import com.xosp.filemanager.ui.ThemeManager.Theme;
 import com.xosp.filemanager.util.AIDHelper;
 import com.xosp.filemanager.util.AndroidHelper;
 import com.xosp.filemanager.util.MimeTypeHelper;
+import com.xosp.filemanager.util.StorageHelper;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -183,6 +185,11 @@ public final class FileManagerApplication extends Application {
         File externalStorage = Environment.getExternalStorageDirectory();
         MimeTypeIndexService.indexFileRoot(this, externalStorage.getAbsolutePath());
         MimeTypeIndexService.indexFileRoot(this, Environment.getRootDirectory().getAbsolutePath());
+        StorageVolume[] storageVolumes = StorageHelper.getStorageVolumes(this, true);
+        for (StorageVolume storageVolume : storageVolumes) {
+            MimeTypeIndexService.indexFileRoot(this, storageVolume.getPath());
+        }
+
 
         // Schedule in case not scheduled (i.e. never booted with this app on device
         SecureCacheCleanupService.scheduleCleanup(getApplicationContext());
